@@ -4,7 +4,7 @@ html {
 }
 
 body {
-  background: black;
+  background: transparent;
   font-size: 14px;
   font-weight: 400;
   font-family: 'Roboto Slab', serif;
@@ -409,6 +409,11 @@ hr {
 .call-admis {
   text-align: right;
   /* padding-right: 100px; */
+}
+
+.call-admis-mob {
+  display: none;
+  text-align: center;
 }
 
 .phone {
