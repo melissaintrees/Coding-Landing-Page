@@ -29,6 +29,20 @@
   #pricing-table .title h3 {
     font-size: 14px;
   }
+  .navbar-header {
+    /* padding: 50px; */
+    text-align: center;
+  }
+  .navbar-brand {
+    position: relative;
+  }
+  .navbar-header {
+    width: 100%;
+  }
+
+  .navbar-brand img {
+    width: 100%;
+  }
 }
 
 /* only small tablets */
@@ -78,6 +92,7 @@
 
 /* mobile or only mobile */
 @media (max-width: 767px) {
+ 
   .section-padding {
     padding: 50px 0;
   }
@@ -91,6 +106,8 @@
   .navbar-brand img {
     margin: 5px 0;
   }
+
+
   #hero-area .contents {
     padding: 100px 0px 60px 0px;
   }
