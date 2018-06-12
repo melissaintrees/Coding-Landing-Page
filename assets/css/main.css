@@ -464,12 +464,12 @@ hr {
   background-image: url('../img/code_hero.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+  min-height: 730px;
 }
 
 
-
 #hero-area .contents {
-  padding: 170px 0px 50px;
+  margin: 250px 0px 0px 0px;
 }
 
 #hero-area .contents h5 {

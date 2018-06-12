@@ -32,6 +32,12 @@
   #pricing-table .title h3 {
     font-size: 14px;
   }
+
+  #header-wrap {
+    position: relative;
+    width: 100%;
+}
+
   .navbar-header {
     width: 100%;
     text-align: center;
@@ -58,6 +64,22 @@
   .navbar-brand img {
     width: 100%;
   }
+
+  #hero-area .contents {
+    margin: 10px 0px 0px 0px;
+  }
+
+  .hero-area-bg {
+    background-image: url('../img/code_mobile_hero.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    max-height: 310px;
+  }
+
+  .navbar-custom {
+    background-color: rgba(0, 0, 0, 1);
+  }
+
 }
 
 /* only small tablets */
@@ -124,9 +146,6 @@
   .call-admis-mob {
     font-size: 13px;
     padding: 5px 0px;
-  }
-  .navbar-custom {
-    background-color: rgba(0, 0, 0, 1);
   }
   
   .phone {
