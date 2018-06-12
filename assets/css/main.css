@@ -12,18 +12,11 @@ body {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   -webkit-font-smoothing: subpixel-antialiased;
-  color: #abacae;
+  color: white;
   line-height: 25px;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   overflow-x: hidden;
-}
-
-h1, h2, h3, h4 {
-  font-size: 38px;
-  color: #585b60;
-  font-weight: 700;
-  font-family: 'Montserrat', sans-serif;
 }
 
 a {
@@ -43,7 +36,7 @@ a a:focus {
 
 p {
   font-weight: 400;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto Slab', serif;
   margin: 0px;
   font-size: 14px;
 }
@@ -285,7 +278,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 hr {
-  border-top: 1px dotted #ddd;
+  border-top: 6px solid;
 }
 
 #feature {
@@ -422,10 +415,9 @@ hr {
 }
 
 .phone {
-  color: #FFF;
-  font-family: 'Roboto Slab', serif;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 1.2em;
+  line-height: 20px;
 }
 
 .trilogy-blue {
@@ -434,7 +426,6 @@ hr {
 
 .trilogy-blue:hover {
   color: #2e91a3;
-
 }
 
 .navbar-toggler {
@@ -463,7 +454,7 @@ hr {
 .hero-area-bg {
   background-image: url('../img/code_hero.jpg');
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
   min-height: 730px;
 }
 
@@ -472,17 +463,65 @@ hr {
   margin: 250px 0px 0px 0px;
 }
 
-#hero-area .contents h5 {
-  font-size: 50px;
+.hero-content-1 > h1,
+.hero-content-2 > h1,
+.hero-content-3 > h1,
+.hero-content-4 > h1,
+.hero-content-2 > h3,
+.hero-content-3 > h3,
+.hero-content-4 > h3
+ {
+  font-family: 'Roboto', sans-serif;
 }
 
-#hero-area .contents .head-title {
-  color: #585b60;
-  font-size: 34px;
-  line-height: 48px;
-  font-weight: 700;
-  margin-bottom: 30px;
+.hero-content-1 {
+   width: 80%;
 }
+
+.hero-content-1 > h1 {
+  color: white;
+  font-size: 4em;
+  font-weight: 700;
+  line-height: 1em;
+}
+
+.hero-content-1 > h3 {
+  font-size: 1.9em;
+  font-weight: 500;
+}
+.hero-content-2,
+.hero-content-4 {
+  margin-right: 25px !important;
+}
+
+hr {
+  margin-right: 25px;
+}
+
+.hero-content-2 > h1,
+.hero-content-4 > h1 {
+  text-transform: uppercase;
+  text-align: right;
+  font-size: 2.3em;
+  margin-bottom: 0rem;
+}
+.hero-content-2 > h3,
+.hero-content-4 > h3 {
+  text-align: right;
+  font-size: 1.5em;
+  font-weight: 300;
+  line-height: 1.5em;
+}
+
+.hero-content-3, 
+.hero-content-4 {
+  margin-top: 50px;
+}
+
+.hero-content-4-hr {
+  margin-left: 40px;
+}
+
 
 .sloder-img {
   background: #34363a;
