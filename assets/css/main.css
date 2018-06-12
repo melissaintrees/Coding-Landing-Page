@@ -396,9 +396,14 @@ hr {
   color: #137ED9;
 }
 
+#header-wrap {
+  position: absolute;
+  width: 100%;
+}
+
 .navbar-custom {
-  background-color: rgba(0, 0, 0, 0.7);
-  /* padding: 15px; */
+  background-color: rgba(0, 0, 0, 0.75);
+  padding: 15px;
 }
 
 .navbar-header {
@@ -449,10 +454,19 @@ hr {
 ========================================================================== */
 #hero-area {
   color: #fff;
-  overflow: hidden;
+  /* overflow: hidden;
   position: relative;
-  background: #f8f9fb;
+  background: #f8f9fb; */
+
 }
+
+.hero-area-bg {
+  background-image: url('../img/code_hero.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
 
 #hero-area .contents {
   padding: 170px 0px 50px;

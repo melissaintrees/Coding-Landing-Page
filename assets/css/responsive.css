@@ -1,4 +1,7 @@
+
 /* only small desktops */
+
+
 @media (min-width: 992px) and (max-width: 1199px) {
   #hero-area .contents .head-title {
     font-size: 40px;
