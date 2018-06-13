@@ -72,6 +72,7 @@ ul li, ol li {
 .padding-none {
   padding: 0px;
 }
+
 button.btn-custom {
     font-size: 33px;
     letter-spacing: 2px;
@@ -149,9 +150,8 @@ button:focus {
 }
 
 .custom-chev {
-width: 32px;
-margin-top: -5px;
-
+  width: 32px;
+  margin-top: -5px;
 }
 
 .icon-close, .icon-check {
@@ -289,9 +289,7 @@ a.back-to-top:hover, a.back-to-top:focus {
   padding: 60px 0;
 }
 
-hr {
-  border-top: 6px solid;
-}
+
 
 #feature {
   background: #f8f9fb;
@@ -517,6 +515,11 @@ hr {
 
 hr {
   margin-right: 25px;
+  border-top: 6px solid;
+}
+
+hr.mobile {
+  display: none;
 }
 
 .trilogy-drk-grey {

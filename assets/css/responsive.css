@@ -16,8 +16,26 @@
     .hero-content-1 {
       width: 100%;
     }
+    .hero-content-1>h1 {
+      font-size: 3.5em;
+      padding-top: 75px;
+    }
+    .hero-content-2>h1 {
+      padding-top: 50px;
+    }
+    .hero-content-3 {
+      margin-top: 40px;
+    }
+    .hero-content-4 {
+      margin-top: 50px;
+    }
+    .form-control {
+      font-size: .9rem;
+    }
+    input {
+      margin:3px;
+    }
 
-  
 }
 /* tablets or medium */
 @media (max-width: 991px) {
@@ -31,6 +49,7 @@
   .services-item {
     margin-bottom: 20px;
   }
+
   #pricing-table .title h3 {
     font-size: 14px;
   }
@@ -38,11 +57,20 @@
   #header-wrap {
     position: relative;
     width: 100%;
-}
+  }
 
   .navbar-header {
     width: 100%;
     text-align: center;
+  }
+
+  .navbar-brand img {
+    width: 100%;
+  }
+
+  .navbar-custom {
+    background-color: rgba(0, 0, 0, 1);
+    color: white;
   }
 
   .call-admis {
@@ -63,10 +91,6 @@
     position: relative;
   }
 
-  .navbar-brand img {
-    width: 100%;
-  }
-
   #hero-area .contents {
     margin: 10px 0px 0px 0px;
   }
@@ -74,12 +98,39 @@
   .hero-area-bg {
     background-image: url('../img/code_mobile_hero.jpg');
     background-repeat: no-repeat;
-
   }
 
-  .navbar-custom {
-    background-color: rgba(0, 0, 0, 1);
+  .blockquote {
+
+    font-size: 1em;
   }
+
+  .form-control {
+    font-size: .5rem;
+    padding: .5rem 1rem;
+  }
+
+  .hero-content-1>h1 {
+    font-size: 3em;
+    /* padding-top: 50px; */
+  }
+
+  .hero-content-1>h3 {
+  
+    font-size: 1.5em;
+  }
+
+  .hero-content-2>h3,
+  .hero-content-4>h3{
+    font-size: 1.3em;
+  }
+
+  .hero-content-3 {
+      margin-top: 0px;
+  }
+
+
+
 
 }
 
@@ -153,9 +204,43 @@
      font-weight: 400;
   }
 
-  #hero-area .contents {
-    padding: 100px 0px 60px 0px;
+  /* #hero-area .contents {
+    padding: 0px 0px 0px 0px;
   }
+
+  */
+  .hero-content-1>h1 {
+    padding-top: 20px;
+  }
+
+  .hero-content-1>h3 {
+    font-size: 2em;
+    text-align: center !important;
+  }
+
+  .hero-content-2>h1,
+  .hero-content-4>h1{
+    display: none;
+  }
+  .hero-content-2>h3,
+  .hero-content-4>h3{
+    text-align: center;
+  }
+
+  /* .hero-content-3 {
+    margin-top: 12em;
+  } */
+
+  hr.trilogy-blue {
+    display: none;
+  }
+
+  hr.mobile {
+    display: block;
+    margin-right: 25px;
+    margin-left: 25px;
+  }
+
   #hero-area .contents .head-title {
     font-size: 20px;
     line-height: 36px;
@@ -167,6 +252,7 @@
   #hero-area .contents .btn {
     margin: 5px 10px 10px 0px;
   }
+
   .text-wrapper {
     padding: 60px 15px;
   }
@@ -209,14 +295,45 @@
   .contact-form-area h2 {
     font-size: 14px;
   }
+
+  .hero-area-bg {
+    background-size: 100%;
+  }
 }
 
 /* mobile or only mobile small */
 
 @media (max-width: 575px) {
+  .hero-content-1>h1 {
+    font-size: 2.3em;
+    padding-top: 50px;
+    text-align: center;
+  }
+  .hero-content-2>h3,
+  .hero-content-4>h3 {
+    font-size: 1.5em;
+  }
+
+  .hero-content-3 {
+    margin-top: 7em;
+  }
 
 }
 
 /* mobile or only mobile ex-small */
 
-@media (max-width: 575px) {}
+@media (max-width: 481px) {
+
+  .hero-content-3 {
+    margin-top: 3em;
+  }
+
+  .hero-content-1>h3 {
+    font-size: 1.5em;
+  }
+  .trilogy-lt-grey-bg {
+    background-color: white;
+    border: 0px;
+  }
+
+}
