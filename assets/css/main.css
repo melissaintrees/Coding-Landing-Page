@@ -148,10 +148,9 @@ button:focus {
   outline: none !important;
 }
 
-.fa-chevron-circle-right {
-background-color: transparent;
-color: white;
-stroke: #333;
+.custom-chev {
+width: 32px;
+margin-top: -5px;
 
 }
 

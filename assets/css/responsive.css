@@ -1,23 +1,25 @@
 
-/* only small desktops */
+/* large desktops or xl bootstrap styles */
+@media (min-width: 1199px){
 
-
-@media (min-width: 992px) and (max-width: 1199px) {
-  #hero-area .contents .head-title {
-    font-size: 40px;
-  }
-  .services-item .services-content h3 a {
-    font-size: 14px;
-  }
-  .title-hl {
-    font-size: 30px;
-  }
-  .why .content h3 {
-    font-size: 30px;
-  }
 }
+/* small desktop or large bs sty */
+@media (max-width: 1198px) {
+    .hero-area-bg {
+      background-image: url('../img/code_mobile_hero.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    #hero-area .contents {
+      margin: 150px 0px 0px 0px;
+    }
+    .hero-content-1 {
+      width: 100%;
+    }
 
-/* tablets */
+  
+}
+/* tablets or medium */
 @media (max-width: 991px) {
   .section-title {
     font-size: 30px;
@@ -72,8 +74,7 @@
   .hero-area-bg {
     background-image: url('../img/code_mobile_hero.jpg');
     background-repeat: no-repeat;
-    background-size: contain;
-    max-height: 310px;
+
   }
 
   .navbar-custom {
@@ -209,3 +210,13 @@
     font-size: 14px;
   }
 }
+
+/* mobile or only mobile small */
+
+@media (max-width: 575px) {
+
+}
+
+/* mobile or only mobile ex-small */
+
+@media (max-width: 575px) {}

@@ -1,5 +1,16 @@
-<?xml version="1.0"?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 485 485" style="enable-background:new 0 0 485 485;" xml:space="preserve" width="512px" height="512px" class=""><g><g>
-	<path d="M413.974,71.026C368.171,25.225,307.274,0,242.5,0S116.829,25.225,71.026,71.026C25.225,116.829,0,177.726,0,242.5   s25.225,125.671,71.026,171.474C116.829,459.775,177.726,485,242.5,485s125.671-25.225,171.474-71.026   C459.775,368.171,485,307.274,485,242.5S459.775,116.829,413.974,71.026z M242.5,455C125.327,455,30,359.673,30,242.5   S125.327,30,242.5,30S455,125.327,455,242.5S359.673,455,242.5,455z" data-original="#000000" class="active-path" data-old_color="#FDFBFB" fill="#FBF8F8"/>
-	<polygon points="193.228,135.589 299.791,242.5 193.228,349.411 214.476,370.589 342.148,242.5 214.476,114.411  " data-original="#000000" class="active-path" data-old_color="#FDFBFB" fill="#FBF8F8"/>
-</g></g> </svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+</style>
+<g>
+	<g>
+		<path class="st0" d="M17.1,2.9C15.2,1,12.7,0,10,0S4.8,1,2.9,2.9C1,4.8,0,7.3,0,10s1,5.2,2.9,7.1C4.8,19,7.3,20,10,20
+			s5.2-1,7.1-2.9C19,15.2,20,12.7,20,10S19,4.8,17.1,2.9z M10,18.8c-4.8,0-8.8-3.9-8.8-8.8S5.2,1.2,10,1.2s8.8,3.9,8.8,8.8
+			S14.8,18.8,10,18.8z"/>
+		<polygon class="st0" points="8,5.6 12.4,10 8,14.4 8.8,15.3 14.1,10 8.8,4.7 		"/>
+	</g>
+</g>
+</svg>
