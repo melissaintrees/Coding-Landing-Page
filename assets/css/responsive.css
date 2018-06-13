@@ -201,21 +201,21 @@
   }
   
   .phone {
-     font-weight: 400;
+    font-weight: 400;
   }
-
-  /* #hero-area .contents {
-    padding: 0px 0px 0px 0px;
-  }
-
-  */
   .hero-content-1>h1 {
-    padding-top: 20px;
+    font-size: 2.8em;
+    padding-top: 0px;
   }
-
   .hero-content-1>h3 {
-    font-size: 2em;
+    font-size: 1.5em;
+    color: white;
     text-align: center !important;
+  }
+  hr {
+    margin-right: 0px;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5em;
   }
 
   .hero-content-2>h1,
@@ -225,20 +225,23 @@
   .hero-content-2>h3,
   .hero-content-4>h3{
     text-align: center;
+    font-size: 1.5em;
   }
 
   /* .hero-content-3 {
     margin-top: 12em;
   } */
 
-  hr.trilogy-blue {
-    display: none;
+  .hero-mobile-1{
+    bottom: 50px;
+    
   }
+
 
   hr.mobile {
     display: block;
-    margin-right: 25px;
-    margin-left: 25px;
+    /* margin-right: 25px;
+    margin-left: 25px; */
   }
 
   #hero-area .contents .head-title {
@@ -252,7 +255,12 @@
   #hero-area .contents .btn {
     margin: 5px 10px 10px 0px;
   }
-
+  #program-banner-caro {
+    display: block;
+  }
+  #hero-area{
+    display: none;
+  }
   .text-wrapper {
     padding: 60px 15px;
   }
@@ -317,23 +325,71 @@
   .hero-content-3 {
     margin-top: 7em;
   }
+   .hero-mobile-1 {
+     bottom: 0px;
+   }
 
 }
 
 /* mobile or only mobile ex-small */
 
 @media (max-width: 481px) {
-
+ .hero-mobile-1 {
+   bottom: 20px;
+   right: 0%;
+   left: 0%;
+ }
   .hero-content-3 {
     margin-top: 3em;
   }
 
   .hero-content-1>h3 {
-    font-size: 1.5em;
+    font-size: 1.3em;
+
+  }
+
+  .hero-content-2>h3 {
+    font-size: 1.3em;
+    padding-right: 20px;
+    padding-left: 30px;
   }
   .trilogy-lt-grey-bg {
     background-color: white;
     border: 0px;
   }
 
+  hr {
+    margin-right: 5em;
+    margin-left: 5em;
+    /* margin-bottom: 2.3em; */
+  }
+
+  .blockquote>h1 {
+    font-size: 2em;
+  }
+
 }
+
+@media (max-width: 410px) {
+
+.hero-mobile-1 {
+  bottom: 0px;
+}
+
+.hero-content-1>h1 {
+  font-size: 1.5em
+}
+.hero-content-1>h3 {
+  font-size: 1em;
+}
+
+.hero-content-2>h3{
+  font-size: 1em
+}
+
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1em;
+}
+}
+

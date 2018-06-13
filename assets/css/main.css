@@ -518,10 +518,9 @@ hr {
   border-top: 6px solid;
 }
 
-hr.mobile {
+#program-banner-caro {
   display: none;
 }
-
 .trilogy-drk-grey {
   color: #a9aaab;
 }
