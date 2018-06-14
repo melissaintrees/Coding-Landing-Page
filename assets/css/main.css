@@ -521,6 +521,11 @@ hr {
 #program-banner-caro {
   display: none;
 }
+
+.mobile-card {
+  display: none;
+}
+
 .trilogy-drk-grey {
   color: #a9aaab;
 }

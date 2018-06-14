@@ -234,9 +234,7 @@
 
   .hero-mobile-1{
     bottom: 50px;
-    
   }
-
 
   hr.mobile {
     display: block;
@@ -258,6 +256,26 @@
   #program-banner-caro {
     display: block;
   }
+  .mobile-card {
+    display:block;
+  }
+
+  .form-inline .form-group {
+    margin-right: auto;
+    margin-left:auto;
+  }
+
+  .form-control{
+    font-size: 1rem;
+  }
+
+  .blockquote>h1 {
+    font-size: 3em;
+  }
+  .blockquote>p {
+    font-size: 1.5em;
+  }
+
   #hero-area{
     display: none;
   }
@@ -303,7 +321,6 @@
   .contact-form-area h2 {
     font-size: 14px;
   }
-
   .hero-area-bg {
     background-size: 100%;
   }
