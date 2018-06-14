@@ -1,7 +1,23 @@
 
 /* large desktops or xl bootstrap styles */
-@media (min-width: 1199px){
+@media (max-width: 1365px){
 
+  .featuring-bg {
+    margin-top: -50px;
+  }
+  h2.section-title {
+    padding-top: 20px;
+  }
+
+}
+@media (max-width: 1273px) {
+  .featuring-bg {
+    margin-top: -90px;
+  }
+  p.disclaimer {
+ 
+    margin: 20px;
+  }
 }
 /* small desktop or large bs sty */
 @media (max-width: 1198px) {

@@ -55,7 +55,8 @@ ul li, ol li {
   text-align: center;
   font-weight: 400;
   line-height: 26px;
-  padding-bottom: 36px;
+  /* padding-bottom: 36px; */
+  font-size: 1.2em;
 }
 
 .section-title {
@@ -67,10 +68,16 @@ ul li, ol li {
   text-align: center;
   letter-spacing: 1px;
   line-height: 1;
-  margin-bottom: 48px;
-  padding: 30px;
+
+  padding: 0px;
   position: relative;
 }
+
+h2.section-title {
+  padding-top:40px;
+  
+}
+
 
 .padding-none {
   padding: 0px;
@@ -376,22 +383,23 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 .featuring-item {
-  padding: 15px;
+  /* padding: 10px 3px; */
+  margin-top: 20px;
   border-radius: 4px;
-  text-align: left;
   transition: all 0.3s ease-in-out 0s;
   -moz-transition: all 0.3s ease-in-out 0s;
   -webkit-transition: all 0.3s ease-in-out 0s;
   -o-transition: all 0.3s ease-in-out 0s;
 }
 
-.featuring-item .icon i {
-  font-size: 42px;
-  width: 42px;
+.featuring-item .icon img {
+  width: 85px;
   display: block;
-  height: 42px;
-  color: #137ED9;
+  height: 85px;
+  margin-right: auto;
+  margin-left: auto;
 }
+
 
 .featuring-item .featuring-content h3 {
   margin-top: 10px;
@@ -406,11 +414,20 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 .featuring-item .featuring-content h3 a:hover {
-  color: #137ED9;
+  color: #38bcdb;
 }
 
 .featuring-content > p {
-  color: black;
+  color: white;
+  text-align: center;
+  font-weight: 300;
+  font-size: 1em;
+  margin-top: 17px;
+}
+
+p.disclaimer {
+  text-align: center;
+  margin: 40px;
 }
 
 /* header styles */
