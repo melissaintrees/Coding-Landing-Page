@@ -59,13 +59,16 @@ ul li, ol li {
 }
 
 .section-title {
-  color: #585b60;
+
+  text-decoration: underline;
+  text-decoration-line: underline;
+  font-family: 'Roboto', sans-serif;
   font-size: 38px;
   text-align: center;
   letter-spacing: 1px;
   line-height: 1;
   margin-bottom: 48px;
-  padding: 0 10px;
+  padding: 30px;
   position: relative;
 }
 
@@ -364,8 +367,15 @@ a.back-to-top:hover, a.back-to-top:focus {
   -webkit-filter: grayscale(0%);
 }
 
-/* Services Item */
-.services-item {
+/* Featuring Item */
+.featuring-bg {
+    background-image: url('../img/featuring.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    min-height: 730px;
+}
+
+.featuring-item {
   padding: 15px;
   border-radius: 4px;
   text-align: left;
@@ -375,7 +385,7 @@ a.back-to-top:hover, a.back-to-top:focus {
   -o-transition: all 0.3s ease-in-out 0s;
 }
 
-.services-item .icon i {
+.featuring-item .icon i {
   font-size: 42px;
   width: 42px;
   display: block;
@@ -383,22 +393,27 @@ a.back-to-top:hover, a.back-to-top:focus {
   color: #137ED9;
 }
 
-.services-item .services-content h3 {
+.featuring-item .featuring-content h3 {
   margin-top: 10px;
   font-weight: 500;
   margin-bottom: 10px;
 }
 
-.services-item .services-content h3 a {
+.featuring-item .featuring-content h3 a {
   font-size: 15px;
   text-transform: uppercase;
   color: #585b60;
 }
 
-.services-item .services-content h3 a:hover {
+.featuring-item .featuring-content h3 a:hover {
   color: #137ED9;
 }
 
+.featuring-content > p {
+  color: black;
+}
+
+/* header styles */
 #header-wrap {
   position: absolute;
   width: 100%;
@@ -458,9 +473,8 @@ a.back-to-top:hover, a.back-to-top:focus {
   display: none;
 }
 
-/* ==========================================================================
-3. Hero Area
-========================================================================== */
+/* Hero Styles */
+
 #hero-area {
   color: #fff;
   /* overflow: hidden;
@@ -522,7 +536,8 @@ hr {
   display: none;
 }
 
-.mobile-card {
+.mobile-card,
+.hero-content-3-mobile {
   display: none;
 }
 

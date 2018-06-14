@@ -35,6 +35,11 @@
     input {
       margin:3px;
     }
+    .featuring-bg {
+      background-image: url('../img/featuring_mobile.jpg');
+      background-repeat: no-repeat;
+      margin-top: -20px;
+    }
 
 }
 /* tablets or medium */
