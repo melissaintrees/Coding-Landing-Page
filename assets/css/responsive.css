@@ -15,7 +15,6 @@
     margin-top: -90px;
   }
   p.disclaimer {
- 
     margin: 20px;
   }
 }
@@ -55,6 +54,9 @@
       background-image: url('../img/featuring_mobile.jpg');
       background-repeat: no-repeat;
       margin-top: -20px;
+    }
+    .col-space {
+      margin-top: 90px;
     }
 
 }
@@ -150,8 +152,14 @@
       margin-top: 0px;
   }
 
+   .col-space {
+     margin-top: 115px;
+   }
 
-
+  .phone-img {
+    width: 100%;
+    margin-top: 100px;
+  }
 
 }
 
