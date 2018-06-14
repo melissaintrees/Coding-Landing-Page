@@ -596,8 +596,11 @@ textarea {
 }
 
 p.disclaimer {
+  font-family: 'Roboto',sans-serif;
+  font-weight: 200;
   text-align: center;
   margin: 40px;
+  font-size: 12px;
 }
 
 .phone-img {
@@ -605,9 +608,7 @@ p.disclaimer {
   margin-top: 20px;
 }
 
-.col-space {
-  margin-top: 70px;
-}
+
 /* end styles  */
 
 

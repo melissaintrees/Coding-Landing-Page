@@ -211,16 +211,11 @@
 /* mobile or only mobile */
 @media (max-width: 767px) {
  
-  .section-padding {
-    padding: 50px 0;
-  }
-  .section-title {
-    font-size: 22px;
-    margin-bottom: 30px;
-  }
-  .title-hl {
-    font-size: 22px;
-  }
+/* .section-padding {
+  padding: 50px 0;
+} */
+
+/* header */
 
   .navbar-brand img {
     margin: 5px 0;
@@ -233,6 +228,8 @@
   .phone {
     font-weight: 400;
   }
+
+  /* hero */
 
   #hero-area {
     display: none;
@@ -275,6 +272,9 @@
     /* margin-right: 25px;
     margin-left: 25px; */
   }
+  .hero-area-bg {
+    background-size: 100%;
+  }
 
   #hero-area .contents .head-title {
     font-size: 20px;
@@ -292,8 +292,9 @@
   }
 
   /* card styles */
-  .mobile-card {
-    display:block;
+  .mobile-card,
+  .hero-content-3-mobile {
+    display: inline;
   }
 
   .form-inline .form-group {
@@ -312,53 +313,94 @@
     font-size: 1.5em;
   }
 
-
-
   .text-wrapper {
     padding: 60px 15px;
   }
+
+  h2.section-title {
+    padding-top: 35px;
+    font-size: 2.2em;
+  }
+  .btn-custom{
+      width: 85%;
+      margin-right: auto;
+      margin-left: auto;
+      margin-bottom: 20px;
+  }
+
+
+   /* featuring section */
+
+   .phone-img {
+     width: 50%;
+     margin-top: 10px;
+   }
+
+    .col-space {
+      margin-top: 30px;
+    }
+    p.disclaimer {
+      padding-bottom: 50px;
+    }
+
+/* end styles */
+
+  .title-hl {
+    font-size: 22px;
+  }
+
   #about .sec-title h3 {
     font-size: 22px;
     line-height: 36px;
   }
+
   .why .content h3 {
     font-size: 18px;
   }
+
   .testimonial-item {
     padding: 0;
   }
+
   .client-item-wrapper img {
     width: 70%;
   }
+
   .slick-slider {
     padding: 0;
   }
+
   .slider-center img {
     padding: 60px 40px;
   }
+
   .subscribes h4 {
     font-size: 22px;
   }
+
   .subscribes p {
     font-size: 16px;
     line-height: 28px;
   }
+
   .footer-right-contact .single-contact {
     margin: 10px 7px;
     padding: 3px 45px;
   }
+
   .footer-area .footer-titel {
     margin-top: 30px;
   }
+
   .contact-right-area {
     margin: 20px 0;
   }
+
   .contact-form-area h2 {
     font-size: 14px;
   }
-  .hero-area-bg {
-    background-size: 100%;
-  }
+  
+
 }
 
 /* mobile or only mobile small */
@@ -384,6 +426,7 @@
   .hero-content-3 {
     margin-top: 0px;
   }
+
 }
 
 /* mobile or only mobile ex-small */
@@ -419,13 +462,6 @@
   .form-control {
     font-size: 1em;
   }
-  button.btn-custom {
-    font-size: 1.6em;
-    border-radius: 5px;
-    padding: 15px;
-    margin-right: 15px;
-    margin-left: 15px;
-  }
 
   hr {
     margin-right: 5em;
@@ -435,17 +471,66 @@
   input {
     margin: 0px;
   }
+
   .blockquote>h1 {
     font-size: 2em;
+    margin-top: -15px;
 
   }
   .blockquote>p {
     font-size: 1em;
+    margin-top: 0px;
   }
+
+  button.btn-custom {
+    font-size: 1.6em;
+    border-radius: 5px;
+    padding: 12px;
+  }
+
   .custom-chev {
     width: 25px;
     margin-top: -5px;
   }
+
+  /* featuring section */
+  h2.section-title {
+    padding-top: 20px;
+    margin-bottom: 10px;
+    font-size: 2.8em;
+  }
+
+  .phone-img {
+    width: 52%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .featuring-item {
+    padding: 0px 35px;
+    margin-top: 10px;
+  }
+  .featuring-content>p {
+    font-size: 1.1em;
+    margin-top: 5px;
+  }
+  .col-space {
+    margin-top: 12px;
+  }
+  p.disclaimer {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    line-height: 20px;
+    font-size: 13px;
+    padding:0px 25px 25px 25px;
+  }
+  
+  .featuring-item .icon img {
+    height: 90px;
+  }
+  .featuring-bg {
+    background-size: cover;
+  }
+
 
 }
 
