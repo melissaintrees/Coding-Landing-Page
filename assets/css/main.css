@@ -660,6 +660,11 @@ h5 {
   color: black !important;
 }
 
+.section-header-faq> h2 {
+  padding-top: 0px;
+  margin-bottom: 35px;
+}
+
 .fa-chevron-circle-right {
   color: #38bcdb;
   background: black;
@@ -672,6 +677,23 @@ li {
   list-style: none;
 }
 
+h5.links {
+  margin-top: 20px;
+  font-size: 1.2rem;
+}
+
+.links:after {
+    background-image: url('../img/tiny-chevron.png');
+    /* Make your icon fit */
+    color: black;
+    z-index: 99999;
+    background-size: 18px 18px;
+}
+
+/* footer */
+.footer-area {
+  background: #38bcdb;
+}
 
 /* end styles  */
 
@@ -884,9 +906,7 @@ li {
 
 /* Footer Area Start */
 
-.footer-area {
-  background: #34363a;
-}
+
 
 .footer-area .footer-titel {
   font-size: 20px;
@@ -928,25 +948,4 @@ li {
   background: transparent;
   color: #137ED9;
   border-left: 1px solid #ddd;
-}
-
-#copyright {
-  background: #34363a;
-  border-top: 2px dotted #3b3d42;
-  padding: 10px;
-}
-
-#copyright p {
-  line-height: 42px;
-  color: #fff;
-  text-align: center;
-  margin: 0;
-}
-
-#copyright p a {
-  color: #fff;
-}
-
-#copyright p a:hover {
-  color: #137ED9;
 }
