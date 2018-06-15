@@ -6,11 +6,12 @@
     margin-top: -50px;
   }
   h2.section-title {
-    padding-top: 20px;
+      padding-top: 25px;
+
   }
   .section-padding-2 {
     padding: 0px 0;
-    margin-top: -175px;
+    margin-top: -180px;
   }
 
 }
@@ -25,9 +26,9 @@
     padding: 0px 0;
      /* margin-top: -100px; */
   }
-  body {
+  /* body {
     background-color: black;
-  }
+  } */
 }
 /* small desktop or large bs sty */
 @media (max-width: 1198px) {
@@ -72,8 +73,15 @@
     }
   .section-padding-2 {
     padding: 0px 0;
-    margin-top: -25px;
+    margin-top: -35px;
   }
+
+  .story-bg {
+    background-image: url('../img/about_mobile.jpg');
+
+  }
+
+  
 
 }
 /* tablets or medium */
@@ -505,49 +513,64 @@
     padding: 12px;
   }
 
-  .custom-chev {
-    width: 25px;
-    margin-top: -5px;
-  }
+.custom-chev {
+  width: 25px;
+  margin-top: -5px;
+}
 
-  /* featuring section */
-  h2.section-title {
-    padding-top: 20px;
-    margin-bottom: 10px;
-    font-size: 2.8em;
-  }
+/* featuring section */
+h2.section-title {
+  padding-top: 20px;
+  margin-bottom: 10px;
+  font-size: 2.8em;
+}
 
-  .phone-img {
-    width: 52%;
-    margin-top: 10px;
-    margin-bottom: 10px;
-  }
-  .featuring-item {
-    padding: 0px 35px;
-    margin-top: 10px;
-  }
-  .featuring-content>p {
-    font-size: 1.1em;
-    margin-top: 5px;
-  }
-  .col-space {
-    margin-top: 12px;
-  }
-  p.disclaimer {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 200;
-    line-height: 20px;
-    font-size: 13px;
-    padding:0px 25px 25px 25px;
-  }
-  
-  .featuring-item .icon img {
-    height: 90px;
-  }
-  .featuring-bg {
-    background-size: cover;
-  }
+.phone-img {
+  width: 52%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.featuring-item {
+  padding: 0px 35px;
+  margin-top: 10px;
+}
+.featuring-content>p {
+  font-size: 1.1em;
+  margin-top: 5px;
+}
+.col-space {
+  margin-top: 12px;
+}
+p.disclaimer {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 200;
+  line-height: 20px;
+  font-size: 13px;
+  padding:0px 25px 25px 25px;
+}
 
+.featuring-item .icon img {
+  height: 90px;
+}
+.featuring-bg {
+  background-size: cover;
+}
+
+  /* story section */
+.section-header-story {
+  padding-top: 15px;
+  padding-bottom: 25px;
+}
+
+.story-item {
+  margin: 15px;
+  padding: 95px 25px;
+}
+
+p.description {
+  font-size: 1.7em;
+  line-height: 35px;
+}
 
 }
 

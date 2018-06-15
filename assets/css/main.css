@@ -613,11 +613,11 @@ p.disclaimer {
   background-image: url('../img/about.jpg');
   background-repeat: no-repeat;
   background-size: cover; 
- 
 }
 
 .story-item {
-  padding: 90px 65px;
+  padding: 90px 55px;
+  
   border-radius: 4px;
   text-align: center;
   border: 1px solid rgba(0, 0, 0, 0.06);
