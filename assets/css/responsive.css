@@ -1,20 +1,18 @@
-
 /* large desktops or xl bootstrap styles */
-@media (max-width: 1365px){
 
+@media (max-width: 1365px) {
   .featuring-bg {
     margin-top: -50px;
   }
   h2.section-title {
-      padding-top: 25px;
-
+    padding-top: 25px;
   }
   .section-padding-2 {
     padding: 0px 0;
     margin-top: -180px;
   }
-
 }
+
 @media (max-width: 1273px) {
   .featuring-bg {
     margin-top: -90px;
@@ -24,67 +22,65 @@
   }
   .section-padding-2 {
     padding: 0px 0;
-     /* margin-top: -100px; */
+    /* margin-top: -100px; */
   }
   /* body {
     background-color: black;
   } */
 }
-/* small desktop or large bs sty */
-@media (max-width: 1198px) {
-    .hero-area-bg {
-      background-image: url('../img/code_mobile_hero.jpg');
-      background-repeat: no-repeat;
-      background-size: cover;
-    }
-    #hero-area .contents {
-      margin: 150px 0px 0px 0px;
-    }
-    .hero-content-1 {
-      width: 100%;
-    }
-    .hero-content-1>h1 {
-      font-size: 3.5em;
-      padding-top: 75px;
-    }
-    .hero-content-2>h1 {
-      padding-top: 50px;
-    }
-    .hero-content-3 {
-      margin-top: 40px;
-    }
-    .hero-content-4 {
-      margin-top: 50px;
-    }
-    .form-control {
-      font-size: .9rem;
-    }
-    input {
-      margin:3px;
 
-    }
-    .featuring-bg {
-      background-image: url('../img/featuring_mobile.jpg');
-      background-repeat: no-repeat;
-      margin-top: -20px;
-    }
-    .col-space {
-      margin-top: 90px;
-    }
+/* small desktop or large bs sty */
+
+@media (max-width: 1198px) {
+  .hero-area-bg {
+    background-image: url('../img/code_mobile_hero.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #hero-area .contents {
+    margin: 150px 0px 0px 0px;
+  }
+  .hero-content-1 {
+    width: 100%;
+  }
+  .hero-content-1>h1 {
+    font-size: 3.5em;
+    padding-top: 75px;
+  }
+  .hero-content-2>h1 {
+    padding-top: 50px;
+  }
+  .hero-content-3 {
+    margin-top: 40px;
+  }
+  .hero-content-4 {
+    margin-top: 50px;
+  }
+  .form-control {
+    font-size: .9rem;
+  }
+  input {
+    margin: 3px;
+  }
+  .featuring-bg {
+    background-image: url('../img/featuring_mobile.jpg');
+    background-repeat: no-repeat;
+    margin-top: -20px;
+  }
+  .col-space {
+    margin-top: 90px;
+  }
   .section-padding-2 {
     padding: 0px 0;
     margin-top: -35px;
   }
-
   .story-bg {
     background-image: url('../img/about_mobile.jpg');
-
   }
-
-  
-
 }
+
 /* tablets or medium */
+
 @media (max-width: 991px) {
   .section-title {
     font-size: 30px;
@@ -96,99 +92,77 @@
   .services-item {
     margin-bottom: 20px;
   }
-
   #pricing-table .title h3 {
     font-size: 14px;
   }
-
   #header-wrap {
     position: relative;
     width: 100%;
   }
-
   .navbar-header {
     width: 100%;
     text-align: center;
   }
-
   .navbar-brand img {
     width: 100%;
   }
-
   .navbar-custom {
     background-color: rgba(0, 0, 0, 1);
     color: white;
   }
-
   .call-admis {
     display: none;
   }
-
   .call-admis-mob {
     display: block;
     text-align: center;
     padding: 15px 0px;
   }
-
-  .navbar>.container{
+  .navbar>.container {
     display: inline;
   }
-
   .navbar-brand {
     position: relative;
   }
-
   #hero-area .contents {
     margin: 10px 0px 0px 0px;
   }
-
   .hero-area-bg {
     background-image: url('../img/code_mobile_hero.jpg');
     background-repeat: no-repeat;
   }
-
   .blockquote {
-
     font-size: 1em;
   }
-
   .form-control {
     font-size: .5rem;
     padding: .5rem 1rem;
   }
-
   .hero-content-1>h1 {
     font-size: 3em;
     /* padding-top: 50px; */
   }
-
   .hero-content-1>h3 {
-  
     font-size: 1.5em;
   }
-
   .hero-content-2>h3,
-  .hero-content-4>h3{
+  .hero-content-4>h3 {
     font-size: 1.3em;
   }
-
   .hero-content-3 {
-      margin-top: 0px;
+    margin-top: 0px;
   }
-
-   .col-space {
-     margin-top: 115px;
-   }
-
+  .col-space {
+    margin-top: 115px;
+  }
   .phone-img {
     width: 100%;
     margin-top: 100px;
   }
-  
-
 }
 
 /* only small tablets */
+
 @media (min-width: 768px) and (max-width: 991px) {
   .section-title {
     font-size: 26px;
@@ -234,14 +208,12 @@
 }
 
 /* mobile or only mobile */
+
 @media (max-width: 767px) {
- 
-/* .section-padding {
+  /* .section-padding {
   padding: 50px 0;
 } */
-
-/* header */
-
+  /* header */
   .navbar-brand img {
     margin: 5px 0;
   }
@@ -249,13 +221,10 @@
     font-size: 13px;
     padding: 5px 0px;
   }
-  
   .phone {
     font-weight: 400;
   }
-
   /* hero */
-
   #hero-area {
     display: none;
   }
@@ -273,25 +242,21 @@
     margin-top: 1.5rem;
     margin-bottom: 1.5em;
   }
-
   .hero-content-2>h1,
-  .hero-content-4>h1{
+  .hero-content-4>h1 {
     display: none;
   }
   .hero-content-2>h3,
-  .hero-content-4>h3{
+  .hero-content-4>h3 {
     text-align: center;
     font-size: 1.5em;
   }
-
   /* .hero-content-3 {
     margin-top: 12em;
   } */
-
-  .hero-mobile-1{
+  .hero-mobile-1 {
     bottom: 50px;
   }
-
   hr.mobile {
     display: block;
     /* margin-right: 25px;
@@ -300,7 +265,6 @@
   .hero-area-bg {
     background-size: 100%;
   }
-
   #hero-area .contents .head-title {
     font-size: 20px;
     line-height: 36px;
@@ -315,117 +279,91 @@
   #program-banner-caro {
     display: block;
   }
-
   /* card styles */
   .mobile-card,
   .hero-content-3-mobile {
     display: inline;
   }
-
   .form-inline .form-group {
     margin-right: auto;
-    margin-left:auto;
+    margin-left: auto;
   }
-
-  .form-control{
+  .form-control {
     font-size: 1rem;
   }
-
   .blockquote>h1 {
     font-size: 3em;
   }
   .blockquote>p {
     font-size: 1.5em;
   }
-
   .text-wrapper {
     padding: 60px 15px;
   }
-
   h2.section-title {
     padding-top: 35px;
     font-size: 2.2em;
   }
-  .btn-custom{
-      width: 85%;
-      margin-right: auto;
-      margin-left: auto;
-      margin-bottom: 20px;
+  .btn-custom {
+    width: 85%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
   }
-
-
-   /* featuring section */
-
-   .phone-img {
-     width: 50%;
-     margin-top: 10px;
-   }
-
-    .col-space {
-      margin-top: 30px;
-    }
-    p.disclaimer {
-      padding-bottom: 50px;
-    }
-
-/* end styles */
-
+  /* featuring section */
+  .phone-img {
+    width: 50%;
+    margin-top: 10px;
+  }
+  .col-space {
+    margin-top: 30px;
+  }
+  p.disclaimer {
+    padding-bottom: 50px;
+  }
+  /* end styles */
   .title-hl {
     font-size: 22px;
   }
-
   #about .sec-title h3 {
     font-size: 22px;
     line-height: 36px;
   }
-
   .why .content h3 {
     font-size: 18px;
   }
-
   .testimonial-item {
     padding: 0;
   }
-
   .client-item-wrapper img {
     width: 70%;
   }
-
   .slick-slider {
     padding: 0;
   }
-
   .slider-center img {
     padding: 60px 40px;
   }
-
   .subscribes h4 {
     font-size: 22px;
   }
-
   .subscribes p {
     font-size: 16px;
     line-height: 28px;
   }
-
   .footer-right-contact .single-contact {
     margin: 10px 7px;
     padding: 3px 45px;
   }
-
   .footer-area .footer-titel {
     margin-top: 30px;
   }
-
   .contact-right-area {
     margin: 20px 0;
   }
-
   .contact-form-area h2 {
     font-size: 14px;
   }
-  
-
 }
 
 /* mobile or only mobile small */
@@ -451,7 +389,6 @@
   .hero-content-3 {
     margin-top: 0px;
   }
-
 }
 
 /* mobile or only mobile ex-small */
@@ -462,32 +399,24 @@
     right: 0%;
     left: 0%;
   }
-
-
   .hero-content-1>h3 {
     font-size: 1.3em;
   }
-
   .hero-content-2>h3 {
     font-size: 1.3em;
     padding-right: 20px;
     padding-left: 30px;
   }
-
   /* mobile card styles */
-
   .hero-content-3 {
     margin-top: 0em;
   }
-
   .form-group {
     margin-bottom: 0px;
   }
-
   .form-control {
     font-size: 1em;
   }
-
   hr {
     margin-right: 5em;
     margin-left: 5em;
@@ -496,104 +425,88 @@
   input {
     margin: 0px;
   }
-
   .blockquote>h1 {
     font-size: 2em;
     margin-top: -15px;
-
   }
   .blockquote>p {
     font-size: 1em;
     margin-top: 0px;
   }
-
   button.btn-custom {
     font-size: 1.6em;
     border-radius: 5px;
     padding: 12px;
   }
-
-.custom-chev {
-  width: 25px;
-  margin-top: -5px;
-}
-
-/* featuring section */
-h2.section-title {
-  padding-top: 20px;
-  margin-bottom: 10px;
-  font-size: 2.8em;
-}
-
-.phone-img {
-  width: 52%;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-.featuring-item {
-  padding: 0px 35px;
-  margin-top: 10px;
-}
-.featuring-content>p {
-  font-size: 1.1em;
-  margin-top: 5px;
-}
-.col-space {
-  margin-top: 12px;
-}
-p.disclaimer {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 200;
-  line-height: 20px;
-  font-size: 13px;
-  padding:0px 25px 25px 25px;
-}
-
-.featuring-item .icon img {
-  height: 90px;
-}
-.featuring-bg {
-  background-size: cover;
-}
-
+  .custom-chev {
+    width: 25px;
+    margin-top: -5px;
+  }
+  /* featuring section */
+  h2.section-title {
+    padding-top: 20px;
+    margin-bottom: 10px;
+    font-size: 2.8em;
+  }
+  .phone-img {
+    width: 52%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .featuring-item {
+    padding: 0px 35px;
+    margin-top: 10px;
+  }
+  .featuring-content>p {
+    font-size: 1.1em;
+    margin-top: 5px;
+  }
+  .col-space {
+    margin-top: 12px;
+  }
+  p.disclaimer {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    line-height: 20px;
+    font-size: 13px;
+    padding: 0px 25px 25px 25px;
+  }
+  .featuring-item .icon img {
+    height: 90px;
+  }
+  .featuring-bg {
+    background-size: cover;
+  }
   /* story section */
-.section-header-story {
-  padding-top: 15px;
-  padding-bottom: 25px;
-}
-
-.story-item {
-  margin: 15px;
-  padding: 95px 25px;
-}
-
-p.description {
-  font-size: 1.7em;
-  line-height: 35px;
-}
-
+  .section-header-story {
+    padding-top: 15px;
+    padding-bottom: 25px;
+  }
+  .story-item {
+    margin: 15px;
+    padding: 95px 25px;
+  }
+  p.description {
+    font-size: 1.7em;
+    line-height: 35px;
+  }
 }
 
 @media (max-width: 410px) {
-
-.hero-mobile-1 {
-  bottom: 0px;
+  .hero-mobile-1 {
+    bottom: 0px;
+  }
+  .hero-content-1>h1 {
+    font-size: 1.5em
+  }
+  .hero-content-1>h3 {
+    font-size: 1em;
+  }
+  .hero-content-2>h3 {
+    font-size: 1em
+  }
+  hr {
+    margin-top: 1rem;
+    margin-bottom: 1em;
+  }
 }
-
-.hero-content-1>h1 {
-  font-size: 1.5em
-}
-.hero-content-1>h3 {
-  font-size: 1em;
-}
-
-.hero-content-2>h3{
-  font-size: 1em
-}
-
-hr {
-  margin-top: 1rem;
-  margin-bottom: 1em;
-}
-}
-
