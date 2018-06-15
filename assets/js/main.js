@@ -4,9 +4,24 @@
 
   $(window).on('load', function() {
 
+  /* Changing the chevron from open to close */
+    $('#accordion').on('shown.bs.collapse', function (e) {
+      $(e.target)
+        .data("bs.collapse")
+        .$trigger.attr("src", "https://via.placeholder.com/350x150");
+    });
 
-  /*Page Loader active
-  ========================================================*/
+    $('#accordion').on('hidden.bs.collapse', function (e, f) {
+      console.log($(e.target).data('bs.collapse').$trigger);
+      //$(this).find(".panel-icon").attr('src', 'https://s22.postimg.org/9takvqkal/Mathematic_Plus2.png');
+      $(e.target)
+        .data("bs.collapse")
+        .$trigger.attr("src", "../img/about.jpg");
+    });
+
+
+
+  /*Page Loader active */
   $('#preloader').fadeOut();
 
   // Sticky Nav
@@ -23,20 +38,10 @@
       currentClass: 'active'
     });
 
-    /* slicknav mobile menu active  */
-    $('.mobile-menu').slicknav({
-        prependTo: '.navbar-header',
-        parentTag: 'liner',
-        allowParentLinks: true,
-        duplicate: true,
-        label: '',
-        closedSymbol: '<i class="lni-chevron-right"></i>',
-        openedSymbol: '<i class="lni-chevron-down"></i>',
-      });
 
       /* WOW Scroll Spy
     ========================================================*/
-     var wow = new WOW({
+    var wow = new WOW({
       //disabled for mobile
         mobile: false
     });
@@ -135,3 +140,4 @@
   });      
 
 }(jQuery));
+

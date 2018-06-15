@@ -40,17 +40,7 @@ p {
   font-size: 14px;
 }
 
-ul,
-ol {
-  list-style: outside none none;
-  margin: 0;
-  padding: 0;
-}
 
-ul li,
-ol li {
-  list-style: none;
-}
 
 section .section-title-header p {
   text-align: center;
@@ -673,22 +663,25 @@ h5 {
   width: 1em;
 }
 
-li {
-  list-style: none;
-}
 
 h5.links {
   margin-top: 20px;
   font-size: 1.2rem;
+  text-align: left !important;
 }
 
-.links:after {
-    background-image: url('../img/tiny-chevron.png');
-    /* Make your icon fit */
-    color: black;
-    z-index: 99999;
-    background-size: 18px 18px;
+svg.faq-chev-blue{
+  width: 20px;
 }
+
+ul {
+  list-style: none;
+}
+ol.faq-list {
+  list-style-type: inherit !important;
+  color: black;
+}
+
 
 /* footer */
 .footer-area {
