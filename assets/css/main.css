@@ -688,4 +688,23 @@ ol.faq-list {
   background: #88d7e8;
 }
 
+.footer-logo {
+  width: 65%;
+  padding-top: 15px;
+}
+
+.footer-text {
+  color: black;
+  text-align: right;
+  padding-top: 15px;
+  line-height: 18px;
+}
+span.ftr-bold {
+  font-weight: bolder;
+}
+
+.section-padding-3 {
+  padding: 20px;
+}
+
 /* end styles  */

@@ -111,15 +111,7 @@
     font-size: 30px;
     margin-bottom: 30px;
   }
-  .services-item .services-content h3 a {
-    font-size: 14px;
-  }
-  .services-item {
-    margin-bottom: 20px;
-  }
-  #pricing-table .title h3 {
-    font-size: 14px;
-  }
+
   #header-wrap {
     position: relative;
     width: 100%;
@@ -184,53 +176,36 @@
     width: 100%;
     margin-top: 100px;
   }
+
+  /* footer */
+
+  .footer-area {
+    background: #88d7e8;
+  }
+
+  .footer-logo {
+    width: 75%;
+    padding-top: 15px;
+    padding-left: 90px;
+
+  }
+
+  .footer-text {
+    color: black;
+    text-align: center;
+    padding-top: 15px;
+    line-height: 18px;
+  }
+
+
+  .section-padding-3 {
+    padding: 10px;
+  }
 }
 
 /* only small tablets */
 
-@media (min-width: 768px) and (max-width: 991px) {
-  .section-title {
-    font-size: 26px;
-    margin-bottom: 30px;
-  }
-  .services-item .services-content h3 a {
-    font-size: 16px;
-  }
-  #about .sec-title h3 {
-    font-size: 30px;
-    line-height: 42px;
-  }
-  .title-hl {
-    font-size: 30px;
-  }
-  .text-wrapper {
-    padding: 60px 30px;
-  }
-  .why .content h3 {
-    font-size: 30px;
-  }
-  #pricing-table .title h3 {
-    font-size: 14px;
-  }
-  .testimonial-item {
-    padding: 10px;
-  }
-  .testimonial-item .content h2 {
-    font-size: 15px;
-  }
-  .slider-center img {
-    padding: 40px 60px;
-  }
-  .subscribes h4 {
-    font-size: 30px;
-  }
-  .footer-area .footer-titel {
-    margin-top: 30px;
-  }
-  .contact-right-area {
-    margin-top: 30px;
-  }
-}
+
 
 /* mobile or only mobile */
 
