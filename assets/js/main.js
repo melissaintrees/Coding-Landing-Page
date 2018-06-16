@@ -4,23 +4,12 @@
 
   $(window).on('load', function() {
 
-
+  $(".rotate").click(function(){
+    $(this).toggleClass("down")  ; 
+  })
+  
   /*Page Loader active */
   $('#preloader').fadeOut();
-
-  // // Sticky Nav
-  //   $(window).on('scroll', function() {
-  //       if ($(window).scrollTop() > 50) {
-  //           $('.scrolling-navbar').addClass('top-nav-collapse');
-  //       } else {
-  //           $('.scrolling-navbar').removeClass('top-nav-collapse');
-  //       }
-  //   });
-
-  //   // one page navigation 
-  //   $('.navbar-nav').onePageNav({
-  //     currentClass: 'active'
-  //   });
 
 
       /* WOW Scroll Spy
@@ -31,68 +20,6 @@
     });
 
     wow.init();
-
-     /* Testimonials Carousel 
-    ========================================================*/
-    var owl = $("#testimonials");
-      owl.owlCarousel({
-        loop: true,
-        nav: false,
-        dots: false,
-        center: true,
-        margin: 15,
-        slideSpeed: 1000,
-        stopOnHover: true,
-        autoPlay: true,
-        responsiveClass: true,
-        responsiveRefreshRate: true,
-        responsive : {
-            0 : {
-                items: 1
-            },
-            768 : {
-                items: 1
-            },
-            960 : {
-                items: 1
-            },
-            1200 : {
-                items: 1
-            },
-            1920 : {
-                items: 1
-            }
-        }
-      });  
-
-     /*  Slick Slider
-    ========================================================*/
-    $('.slider-center').slick({
-      centerMode: true,
-      centerPadding: '60px',
-      slidesToShow: 3,
-      responsive: [
-        {
-          breakpoint: 768,
-          settings: {
-            arrows: false,
-            centerMode: true,
-            centerPadding: '40px',
-            slidesToShow: 3
-          }
-        },
-        {
-          breakpoint: 480,
-          settings: {
-            arrows: false,
-            centerMode: true,
-            centerPadding: '40px',
-            slidesToShow: 1
-          }
-        }
-      ]
-    });
-    
 
     /* Back Top Link active
     ========================================================*/

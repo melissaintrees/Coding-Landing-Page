@@ -618,7 +618,20 @@ h5 {
   height: 1em;
   width: 1em;
 }
+/* rotate the icons */
+.rotate{
+  -moz-transition: all 0s linear;
+  -webkit-transition: all 0s linear;
+  transition: all 0s linear;
+  
+}
 
+.rotate.down{
+  
+  -moz-transform:rotate(90deg);
+  -webkit-transform:rotate(90deg);
+  transform:rotate(90deg);
+}
 
 h5.links {
   margin-top: 20px;
