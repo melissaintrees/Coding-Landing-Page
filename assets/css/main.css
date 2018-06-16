@@ -641,7 +641,7 @@ p.description {
 .faq-bg {
   background-image: url('../img/faq.jpg');
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
   min-height: 550px;
 }
 

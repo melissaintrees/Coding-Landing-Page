@@ -11,6 +11,18 @@
     padding: 0px 0;
     margin-top: -180px;
   }
+  .faq-bg{
+    background-size: cover;
+  }
+  .section-header-faq {
+    text-align: center !important;
+  }
+  h5.links {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    text-align: left !important;
+  }
+
 }
 
 @media (max-width: 1273px) {
@@ -76,6 +88,19 @@
   }
   .story-bg {
     background-image: url('../img/about_mobile.jpg');
+  }
+
+  /* for faq */
+  .faq-bg {
+    background-image: url('../img/faq_mobile.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+  .section-header-faq .section-title {
+    line-height: 50px;
+    padding-top: 0px;
+    text-align: center;
   }
 }
 
@@ -321,49 +346,35 @@
   p.disclaimer {
     padding-bottom: 50px;
   }
+  h5.links {
+    margin-left: 40px;
+    margin-right: 40px;
+  
+  }
+  .faq-bg {
+    padding-top: 20px;
+    background-size: 100%;
+    min-height: 765px;
+  }
+
+  #accordion {
+    padding-top: 8px;
+  }
+  ol.faq-list {
+    font-size: 1.2em;
+
+  }
+
+  .faq-list {
+    margin-left: 50px;
+  }
+
+  .section-header-faq .section-title {
+    text-align: center;
+  }
+  
   /* end styles */
-  .title-hl {
-    font-size: 22px;
-  }
-  #about .sec-title h3 {
-    font-size: 22px;
-    line-height: 36px;
-  }
-  .why .content h3 {
-    font-size: 18px;
-  }
-  .testimonial-item {
-    padding: 0;
-  }
-  .client-item-wrapper img {
-    width: 70%;
-  }
-  .slick-slider {
-    padding: 0;
-  }
-  .slider-center img {
-    padding: 60px 40px;
-  }
-  .subscribes h4 {
-    font-size: 22px;
-  }
-  .subscribes p {
-    font-size: 16px;
-    line-height: 28px;
-  }
-  .footer-right-contact .single-contact {
-    margin: 10px 7px;
-    padding: 3px 45px;
-  }
-  .footer-area .footer-titel {
-    margin-top: 30px;
-  }
-  .contact-right-area {
-    margin: 20px 0;
-  }
-  .contact-form-area h2 {
-    font-size: 14px;
-  }
+ 
 }
 
 /* mobile or only mobile small */
@@ -388,6 +399,10 @@
   /* mobile card form styles */
   .hero-content-3 {
     margin-top: 0px;
+  }
+
+  .faq-bg {
+    min-height: 965px;
   }
 }
 
@@ -490,9 +505,19 @@
     font-size: 1.7em;
     line-height: 35px;
   }
+
+  .section-header-faq > h2{
+    font-weight: 500;
+  }
+
+    .faq-list {
+      margin-left: 10px;
+    }
+
+
 }
 
-@media (max-width: 410px) {
+@media (max-width: 479px) {
   .hero-mobile-1 {
     bottom: 0px;
   }
@@ -509,4 +534,31 @@
     margin-top: 1rem;
     margin-bottom: 1em;
   }
+    .faq-bg {
+      min-height: 765px;
+    }
+    .section-header-faq .section-title {
+
+      margin-bottom: 0px;
+    }
+    #accordion {
+      padding-top: 0px;
+    }
+
+    .faqs {
+      font-size: .9em;
+    }
+    ol.faq-list {
+      font-size: .7em;
+      padding-top: 0px;
+      margin-top: 0px;
+    }
+    h5.links {
+      margin-left: 5px;
+      margin-right: 5px;
+    }
+  .faq-bg {
+        background-size: cover;
+        min-height: 965px;
+      }
 }
