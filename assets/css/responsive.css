@@ -11,7 +11,7 @@
     padding: 0px 0;
     margin-top: -180px;
   }
-  .faq-bg{
+  .faq-bg {
     background-size: cover;
   }
   .section-header-faq {
@@ -22,7 +22,6 @@
     font-size: 1.2rem;
     text-align: left !important;
   }
-
 }
 
 @media (max-width: 1273px) {
@@ -89,13 +88,11 @@
   .story-bg {
     background-image: url('../img/about_mobile.jpg');
   }
-
   /* for faq */
   .faq-bg {
     background-image: url('../img/faq_mobile.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-
   }
   .section-header-faq .section-title {
     line-height: 50px;
@@ -111,7 +108,6 @@
     font-size: 30px;
     margin-bottom: 30px;
   }
-
   #header-wrap {
     position: relative;
     width: 100%;
@@ -176,37 +172,27 @@
     width: 100%;
     margin-top: 100px;
   }
-
   /* footer */
-
   .footer-area {
     background: #88d7e8;
   }
-
   .footer-logo {
     width: 75%;
     padding-top: 15px;
     padding-left: 90px;
-
   }
-
   .footer-text {
     color: black;
     text-align: center;
     padding-top: 15px;
     line-height: 18px;
   }
-
-
   .section-padding-3 {
     padding: 10px;
   }
-  
 }
 
 /* only small tablets */
-
-
 
 /* mobile or only mobile */
 
@@ -325,39 +311,30 @@
   h5.links {
     margin-left: 40px;
     margin-right: 40px;
-  
   }
   .faq-bg {
     padding-top: 20px;
     background-size: 100%;
     min-height: 765px;
   }
-
   #accordion {
     padding-top: 8px;
   }
   ol.faq-list {
     font-size: 1.2em;
-
   }
-
   .faq-list {
     margin-left: 50px;
   }
-
   .section-header-faq .section-title {
     text-align: center;
   }
-
   .footer-logo {
     width: 100%;
     padding-top: 15px;
     padding-left: 0px;
-
   }
-  
   /* end styles */
- 
 }
 
 /* mobile or only mobile small */
@@ -383,7 +360,6 @@
   .hero-content-3 {
     margin-top: 0px;
   }
-
   .faq-bg {
     min-height: 965px;
   }
@@ -488,23 +464,18 @@
     font-size: 1.7em;
     line-height: 35px;
   }
-
-  .section-header-faq > h2{
+  .section-header-faq>h2 {
     font-weight: 500;
   }
-
-    .faq-list {
-      margin-left: 10px;
-    }
-
-    .quests {
-      padding-left: 15px;
-      margin-top: -25px;
-      font-size: 1.5em;
-      line-height: 25px;
+  .faq-list {
+    margin-left: 10px;
   }
-
-
+  .quests {
+    padding-left: 15px;
+    margin-top: -25px;
+    font-size: 1.5em;
+    line-height: 25px;
+  }
 }
 
 @media (max-width: 479px) {
@@ -528,38 +499,40 @@
     min-height: 765px;
   }
   .section-header-faq .section-title {
-
     margin-bottom: 0px;
   }
   #accordion {
     padding-top: 0px;
   }
 
-  .faqs {
-    font-size: .9em;
-  }
-  ol.faq-list {
-    font-size: .7em;
-    padding-top: 0px;
-    margin-top: 0px;
-  }
-  h5.links {
-    margin-left: 5px;
-    margin-right: 5px;
-  }
+.faqs {
+  font-size: .9em;
+}
+
+ol.faq-list {
+  font-size: .7em;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+h5.links {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
 .faq-bg {
-      background-size: cover;
-      min-height: 965px;
-    }
+  background-size: cover;
+  min-height: 965px;
+}
 .section-header-faq .section-title {
   padding-top: 10px;
   font-size: 1.8em;
   line-height: 30px;
   margin-bottom: 30px;
 }
+
 .quests {
   font-size: 1.2em;
-
 }
 
 }
