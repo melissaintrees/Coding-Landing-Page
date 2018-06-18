@@ -1,4 +1,5 @@
 # Code a Landing Page Challenge
+https://melissaintrees.github.io/Coding-Landing-Page/
 
 The challenge was to code a responsive landing page using these mock-ups.
 It has different features for mobile than it does for desktop screens for instance the slideshow changes from clickable to auto-rotating.
