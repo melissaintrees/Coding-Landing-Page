@@ -497,6 +497,13 @@
       margin-left: 10px;
     }
 
+    .quests {
+      padding-left: 15px;
+      margin-top: -25px;
+      font-size: 1.5em;
+      line-height: 25px;
+  }
+
 
 }
 
@@ -517,31 +524,42 @@
     margin-top: 1rem;
     margin-bottom: 1em;
   }
-    .faq-bg {
-      min-height: 765px;
-    }
-    .section-header-faq .section-title {
-
-      margin-bottom: 0px;
-    }
-    #accordion {
-      padding-top: 0px;
-    }
-
-    .faqs {
-      font-size: .9em;
-    }
-    ol.faq-list {
-      font-size: .7em;
-      padding-top: 0px;
-      margin-top: 0px;
-    }
-    h5.links {
-      margin-left: 5px;
-      margin-right: 5px;
-    }
   .faq-bg {
-        background-size: cover;
-        min-height: 965px;
-      }
+    min-height: 765px;
+  }
+  .section-header-faq .section-title {
+
+    margin-bottom: 0px;
+  }
+  #accordion {
+    padding-top: 0px;
+  }
+
+  .faqs {
+    font-size: .9em;
+  }
+  ol.faq-list {
+    font-size: .7em;
+    padding-top: 0px;
+    margin-top: 0px;
+  }
+  h5.links {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+.faq-bg {
+      background-size: cover;
+      min-height: 965px;
+    }
+.section-header-faq .section-title {
+  padding-top: 10px;
+  font-size: 1.8em;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+.quests {
+  font-size: 1.2em;
+
+}
+
 }

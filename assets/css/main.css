@@ -623,20 +623,22 @@ h5 {
   -moz-transition: all 0s linear;
   -webkit-transition: all 0s linear;
   transition: all 0s linear;
-  
+  background-image: url('../img/chev-blue.svg');
+  background-repeat: no-repeat;
+  background-size: 6%;
+  padding: 20px;
 }
 
 .rotate.down{
-  
-  -moz-transform:rotate(90deg);
-  -webkit-transform:rotate(90deg);
-  transform:rotate(90deg);
+  background-image: url('../img/chev-black.svg');
+  background-repeat: no-repeat;
 }
 
-h5.links {
-  margin-top: 20px;
-  font-size: 1.2rem;
-  text-align: left !important;
+.quests{
+  padding-left: 30px;
+  margin-top: -15px;
+  font-size: 1.5em;
+  line-height: 25px;
 }
 
 svg.faq-chev-blue{
