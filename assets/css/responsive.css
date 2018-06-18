@@ -201,6 +201,7 @@
   .section-padding-3 {
     padding: 10px;
   }
+  
 }
 
 /* only small tablets */
@@ -346,6 +347,13 @@
 
   .section-header-faq .section-title {
     text-align: center;
+  }
+
+  .footer-logo {
+    width: 100%;
+    padding-top: 15px;
+    padding-left: 0px;
+
   }
   
   /* end styles */

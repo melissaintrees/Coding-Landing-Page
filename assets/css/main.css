@@ -150,51 +150,7 @@ button:focus {
   margin-top: -5px;
 }
 
-.icon-close,
-.icon-check {
-  color: #137ED9;
-}
 
-.social-icon a {
-  color: #666;
-  background: #fff;
-  width: 32px;
-  height: 32px;
-  line-height: 34px;
-  display: inline-block;
-  text-align: center;
-  border-radius: 100%;
-  font-size: 16px;
-  margin: 15px 6px 12px 4px;
-  transition: all 0.3s ease-in-out 0s;
-  -moz-transition: all 0.3s ease-in-out 0s;
-  -webkit-transition: all 0.3s ease-in-out 0s;
-  -o-transition: all 0.3s ease-in-out 0s;
-}
-
-.social-icon a:hover {
-  color: #fff !important;
-}
-
-.social-icon .facebook:hover {
-  background: #3b5999;
-}
-
-.social-icon .twitter:hover {
-  background: #4A9CEC;
-}
-
-.social-icon .instagram:hover {
-  background: #D6274D;
-}
-
-.social-icon .linkedin:hover {
-  background: #1260A2;
-}
-
-.social-icon .google:hover {
-  background: #CE332A;
-}
 
 /* ScrollToTop */
 
@@ -662,7 +618,20 @@ h5 {
   height: 1em;
   width: 1em;
 }
+/* rotate the icons */
+.rotate{
+  -moz-transition: all 0s linear;
+  -webkit-transition: all 0s linear;
+  transition: all 0s linear;
+  
+}
 
+.rotate.down{
+  
+  -moz-transform:rotate(90deg);
+  -webkit-transform:rotate(90deg);
+  transform:rotate(90deg);
+}
 
 h5.links {
   margin-top: 20px;
