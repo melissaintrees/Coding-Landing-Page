@@ -48,6 +48,14 @@
     background-repeat: no-repeat;
     background-size: cover;
   }
+  
+  .showslide {
+    background-image: url('../img/data_mobile_hero.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* min-height: 730px; */
+  }
+
   #hero-area .contents {
     margin: 150px 0px 0px 0px;
   }
@@ -99,6 +107,10 @@
     padding-top: 0px;
     text-align: center;
   }
+  .rotate {
+    background-size: 4%;
+  }
+ 
 }
 
 /* tablets or medium */
@@ -144,6 +156,14 @@
     background-image: url('../img/code_mobile_hero.jpg');
     background-repeat: no-repeat;
   }
+  .showslide {
+    background-image: url('../img/data_mobile_hero.jpg');
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    /* min-height: 730px; */
+  }
+
+  
   .blockquote {
     font-size: 1em;
   }
@@ -329,6 +349,12 @@
   .section-header-faq .section-title {
     text-align: center;
   }
+  .rotate {
+    background-size: 7%;
+    padding: 15px;
+  }
+
+
   .footer-logo {
     width: 100%;
     padding-top: 15px;
@@ -476,6 +502,10 @@
     font-size: 1.5em;
     line-height: 25px;
   }
+  .rotate {
+    background-size: 7%;
+    padding: 25px 25px 10px 25px;
+}
 }
 
 @media (max-width: 479px) {
@@ -532,7 +562,8 @@ h5.links {
 }
 
 .quests {
-  font-size: 1.2em;
+  font-size: 1.4em;
+  line-height: 1em;
 }
 
 }
