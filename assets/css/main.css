@@ -323,6 +323,42 @@ a.back-to-top:focus {
   min-height: 730px;
 }
 
+.showslide {
+  background-image: url('../img/data_hero.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  min-height: 730px;
+}
+
+.hero-content-2 h1,
+.hero-content-2-hr {
+  color: #38bcdb;
+}
+
+.showslide > .container .row .col-md-5 .contents.hero-content-2 h1,
+.showslide > .container .row .col-md-5 .hero-content-2-hr {
+  color: white;
+}
+
+.hero-content-4 h1 {
+  color: white;
+}
+
+.showslide > .container .row .col-md-5 .hero-content-4 h1,
+.showslide > .container .row .col-md-5 .hero-content-4-hr
+ {
+  color: #38bcdb;
+ }
+
+
+.trilogy-blue {
+  color: #38bcdb;
+}
+
+/* .hero-content-4 h1 {
+  color: blue;
+} */
+
 #hero-area .contents {
   margin: 215px 0px 0px 0px;
 }

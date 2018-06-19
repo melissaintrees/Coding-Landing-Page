@@ -4,6 +4,14 @@
 
   $(window).on('load', function() {
 
+  /* toggles picture buttons for data info on hero section */
+
+  $(".hero-area-bg").click(function(){
+    $(this).toggleClass("showslide")  ; 
+  })
+  
+
+  /*toggles svg buttons for expanding faq list */
   $(".rotate").click(function(){
     $(this).toggleClass("down")  ; 
   })
