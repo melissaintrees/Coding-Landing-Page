@@ -75,7 +75,7 @@
   .hero-content-4 {
     margin-top: 50px;
   }
-  .form-control {
+  .custom-form {
     font-size: .9rem;
   }
   input {
@@ -167,7 +167,7 @@
   .blockquote {
     font-size: 1em;
   }
-  .form-control {
+  .custom-form {
     font-size: .5rem;
     padding: .5rem 1rem;
   }
@@ -295,7 +295,7 @@
     margin-right: auto;
     margin-left: auto;
   }
-  .form-control {
+  .custom-form {
     font-size: 1rem;
   }
   .blockquote>h1 {
@@ -414,9 +414,7 @@
   .form-group {
     margin-bottom: 0px;
   }
-  .form-control {
-    font-size: 1em;
-  }
+
   hr {
     margin-right: 5em;
     margin-left: 5em;

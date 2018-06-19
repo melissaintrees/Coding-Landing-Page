@@ -169,7 +169,7 @@ a.back-to-top i {
   height: 40px;
   line-height: 40px;
   color: #fff;
-  background: #137ED9;
+  background: #38bcdb;;
   border-radius: 30px;
   text-align: center;
   transition: all 0.2s ease-in-out;
@@ -465,7 +465,7 @@ hr {
   margin-left: 30px;
 }
 
-.form-control {
+.custom-form {
   width: 100%;
   margin-bottom: 20px;
   padding: 0rem .75rem;
@@ -482,7 +482,7 @@ hr {
   background: transparent !important;
 }
 
-.form-control:focus {
+.custom-form:focus {
   /* border: 0; */
   box-shadow: none;
   outline: none;
@@ -494,22 +494,22 @@ input {
   text-align: left;
 }
 
-form .form-control::-webkit-input-placeholder {
+form .custom-form::-webkit-input-placeholder {
   color: black;
   font-size: 1.5em;
 }
 
-form .form-control::-moz-placeholder {
+form .custom-form::-moz-placeholder {
   color: black;
   font-size: 1.5em;
 }
 
-form .form-control:-ms-input-placeholder {
+form .custom-form:-ms-input-placeholder {
   color: black;
   font-size: 1.5em;
 }
 
-form .form-control:placeholder {
+form .custom-form:placeholder {
   color: black;
   font-size: 1.5em;
 }
@@ -518,7 +518,7 @@ textarea {
   border-radius: 0px !important;
 }
 
-.form-control:focus {
+.custom-form:focus {
   box-shadow: none;
   outline: none;
 }
